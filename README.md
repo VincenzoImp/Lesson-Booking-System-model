@@ -1,2 +1,2 @@
 # Lesson-Booking-System-model
-Project for software enegeneering exam
+Project for "software enegeneering" exam
