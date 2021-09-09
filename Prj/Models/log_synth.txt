@@ -1,0 +1,64 @@
+Begin log
+
+Test 0:
+Variables: prod.T = 1.0
+LOG_SUCCESS       | info    | The initialization finished successfully without homotopy method.
+LOG_SUCCESS       | info    | The simulation finished successfully.
+Esit: objective function = 0.011111111111111112
+
+Test 1:
+Variables: prod.T = 160.88888888888889
+LOG_SUCCESS       | info    | The initialization finished successfully without homotopy method.
+LOG_SUCCESS       | info    | The simulation finished successfully.
+Esit: objective function = 0.008620689655172414
+
+Test 2:
+Variables: prod.T = 320.77777777777777
+LOG_SUCCESS       | info    | The initialization finished successfully without homotopy method.
+LOG_SUCCESS       | info    | The simulation finished successfully.
+Esit: objective function = 0.009433962264150943
+
+Test 3:
+Variables: prod.T = 480.66666666666663
+LOG_SUCCESS       | info    | The initialization finished successfully without homotopy method.
+LOG_SUCCESS       | info    | The simulation finished successfully.
+Esit: objective function = 0.010416666666666666
+
+Test 4:
+Variables: prod.T = 640.5555555555555
+LOG_SUCCESS       | info    | The initialization finished successfully without homotopy method.
+LOG_SUCCESS       | info    | The simulation finished successfully.
+Esit: objective function = 0.011627906976744186
+
+Test 5:
+Variables: prod.T = 800.4444444444445
+LOG_SUCCESS       | info    | The initialization finished successfully without homotopy method.
+LOG_SUCCESS       | info    | The simulation finished successfully.
+Esit: objective function = 0.013157894736842105
+
+Test 6:
+Variables: prod.T = 960.3333333333333
+LOG_SUCCESS       | info    | The initialization finished successfully without homotopy method.
+LOG_SUCCESS       | info    | The simulation finished successfully.
+Esit: objective function = 0.015151515151515152
+
+Test 7:
+Variables: prod.T = 1120.2222222222222
+LOG_SUCCESS       | info    | The initialization finished successfully without homotopy method.
+LOG_SUCCESS       | info    | The simulation finished successfully.
+Esit: objective function = 0.017857142857142856
+
+Test 8:
+Variables: prod.T = 1280.111111111111
+LOG_SUCCESS       | info    | The initialization finished successfully without homotopy method.
+LOG_SUCCESS       | info    | The simulation finished successfully.
+Esit: objective function = 0.021739130434782608
+
+Test 9:
+Variables: prod.T = 1440.0
+LOG_SUCCESS       | info    | The initialization finished successfully without homotopy method.
+LOG_SUCCESS       | info    | The simulation finished successfully.
+Esit: objective function = 0.027777777777777776
+
+min(objective function): 0.027777777777777776
+best prod.T value: 1440.0

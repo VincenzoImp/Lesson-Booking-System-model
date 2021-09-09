@@ -1,0 +1,64 @@
+Begin log
+
+Test 0:
+Variables: a.localSeed=3924 s.localSeed=4588 G.localSeed4522
+LOG_SUCCESS       | info    | The initialization finished successfully without homotopy method.
+LOG_SUCCESS       | info    | The simulation finished successfully.
+Esit: SUCCESS
+
+Test 1:
+Variables: a.localSeed=900 s.localSeed=4288 G.localSeed1807
+LOG_SUCCESS       | info    | The initialization finished successfully without homotopy method.
+LOG_SUCCESS       | info    | The simulation finished successfully.
+Esit: SUCCESS
+
+Test 2:
+Variables: a.localSeed=8111 s.localSeed=6692 G.localSeed3145
+LOG_SUCCESS       | info    | The initialization finished successfully without homotopy method.
+LOG_SUCCESS       | info    | The simulation finished successfully.
+Esit: SUCCESS
+
+Test 3:
+Variables: a.localSeed=2009 s.localSeed=9361 G.localSeed7067
+LOG_SUCCESS       | info    | The initialization finished successfully without homotopy method.
+LOG_SUCCESS       | info    | The simulation finished successfully.
+Esit: SUCCESS
+
+Test 4:
+Variables: a.localSeed=2578 s.localSeed=87 G.localSeed50
+LOG_SUCCESS       | info    | The initialization finished successfully without homotopy method.
+LOG_SUCCESS       | info    | The simulation finished successfully.
+Esit: SUCCESS
+
+Test 5:
+Variables: a.localSeed=9890 s.localSeed=8329 G.localSeed578
+LOG_SUCCESS       | info    | The initialization finished successfully without homotopy method.
+LOG_SUCCESS       | info    | The simulation finished successfully.
+Esit: SUCCESS
+
+Test 6:
+Variables: a.localSeed=1916 s.localSeed=4196 G.localSeed6895
+LOG_SUCCESS       | info    | The initialization finished successfully without homotopy method.
+LOG_SUCCESS       | info    | The simulation finished successfully.
+Esit: SUCCESS
+
+Test 7:
+Variables: a.localSeed=6174 s.localSeed=2311 G.localSeed6859
+LOG_SUCCESS       | info    | The initialization finished successfully without homotopy method.
+LOG_SUCCESS       | info    | The simulation finished successfully.
+Esit: SUCCESS
+
+Test 8:
+Variables: a.localSeed=5865 s.localSeed=5368 G.localSeed6958
+LOG_SUCCESS       | info    | The initialization finished successfully without homotopy method.
+LOG_SUCCESS       | info    | The simulation finished successfully.
+Esit: SUCCESS
+
+Test 9:
+Variables: a.localSeed=3675 s.localSeed=2581 G.localSeed6324
+LOG_SUCCESS       | info    | The initialization finished successfully without homotopy method.
+LOG_SUCCESS       | info    | The simulation finished successfully.
+Esit: SUCCESS
+
+test superati: 10
+test falliti: 0

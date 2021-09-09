@@ -1,0 +1,51 @@
+print("load Modelica");
+loadModel(Modelica);
+getErrorString();
+
+print("load Connectors.mo");
+loadFile("Connectors.mo");
+getErrorString();
+
+print("load System.mo");
+loadFile("System.mo");
+getErrorString();
+
+print("load Aula.mo");
+loadFile("Aula.mo");
+getErrorString();
+
+print("load Studenti.mo");
+loadFile("Studenti.mo");
+getErrorString();
+
+print("load Prenotazioni.mo");
+loadFile("Prenotazioni.mo");
+getErrorString();
+
+print("load GOMP.mo");
+loadFile("GOMP.mo");
+getErrorString();
+
+print("load Prodigit.mo");
+loadFile("Prodigit.mo");
+getErrorString();
+
+print("load Monitor_RF.mo");
+loadFile("Monitor_RF.mo");
+getErrorString();
+
+print("load Monitor_RNF.mo");
+loadFile("Monitor_RNF.mo");
+getErrorString();
+
+print("load Functions.mo");
+loadFile("Functions.mo");
+getErrorString();
+
+print("simulate System");
+simulate(System, stopTime=(1*60*24*2)); //2 giorni
+getErrorString();
+
+print("plotting");
+plot({a.capienza, a.stato, p.nuove_prenotazioni, p.posti_prenotati, m_rf.safety_signal, m_rf.liveness_signal, G.stato_G, m_rnf.delta_error_prenotazioni, m_rnf.stato_differente, m_rnf.capienza_differente, m_rnf.posti_prenotati_differenti, m_rnf.max_delta_error_prenotazioni}, externalWindow=true);
+getErrorString();
